@@ -10,56 +10,30 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import {SignUp} from './signup.jsx';
+import {Portfolio} from './portfolio.jsx';
 
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 function App() {
   return (
     <Router>
-    <div>
-    <link
-    rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous"
-    />
     <nav class="navbar navbar-expand-lg navbar-default navbar-dark bg-dark">
     <div class="navbar-inner">
       <div class="container">
     <ul class="nav navbar-nav">
     <li class="nav-item">
-    <a class="nav-link" ><Link to="/">Home</Link></a>
+    <Link to="/">Home</Link>
     </li>
     <li class="nav-item">
-    <a class="nav-link" ><Link to="/about">About</Link></a>
+    <Link to="/about">About Raeeeb</Link>
     </li>
     <li class="nav-item">
-     <a class="nav-link" ><Link to="/dashboard">Dashboard</Link></a>
+        <Link to="/dashboard">Dashboard</Link>
     </li>
     <li class="nav-item">
     <a class="nav-link" ><Link to="/login">Login</Link></a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" ><Link to="/signup">Sign Up</Link></a>
+    <Link to="/signup">Sign Up</Link>
     </li>
     <li class="nav-item">
     <a class="nav-link" ><Link to="/portfolio">Portfolio</Link></a>
@@ -99,24 +73,23 @@ function App() {
         <SignUp />
         </Route>
         <Route path="/portfolio">
-        <Dashboard />
+        <Portfolio />
         </Route>
         <Route path="/transactions">
         <Dashboard />
         </Route>
         </Switch>
-        <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin />
+        <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin />
 
         <script
         src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-        crossorigin
+        crossOrigin
         />
 
         <script
         src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-        crossorigin
+        crossOrigin
         />
-        </div>
         </Router>
         );
 }
@@ -127,6 +100,7 @@ function App() {
 function Home() {
   return (
     <div>
+    <h2>Please show this change</h2>
     <h2>Home</h2>
     <Button>Click Me!</Button>
     </div>
@@ -144,7 +118,7 @@ function About() {
 function Dashboard() {
   return (
     <div>
-    <h2>Dashboard</h2>
+    <h2>Great</h2>
     </div>
     );
 }
