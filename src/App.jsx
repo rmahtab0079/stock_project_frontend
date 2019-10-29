@@ -56,16 +56,16 @@ function App() {
      <a class="nav-link" ><Link to="/dashboard">Dashboard</Link></a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" ><Link to="/login">Dashboard</Link></a>
+    <a class="nav-link" ><Link to="/login">Login</Link></a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" ><Link to="/signup">Dashboard</Link></a>
+    <a class="nav-link" ><Link to="/signup">Sign Up</Link></a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" ><Link to="/portfolio">Dashboard</Link></a>
+    <a class="nav-link" ><Link to="/portfolio">Portfolio</Link></a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" ><Link to="/transactions">Dashboard</Link></a>
+    <a class="nav-link" ><Link to="/transactions">Transactions</Link></a>
     </li>
     </ul>
       </div>
